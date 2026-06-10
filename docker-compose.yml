@@ -1,0 +1,15 @@
+services:
+  catalogdb:
+    image: postgres:16
+  basketdb:
+    image: postgres:16
+
+  catalog.ai:
+    image: ${DOCKER_REGISTRY-}catalogai
+    build:
+      context: .
+      dockerfile: Catalog.Ai/Dockerfile
+
+volumes:
+  postgres_catalog:
+  postgres_basket:

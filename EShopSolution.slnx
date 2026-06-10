@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/BuildingBlocks/">
+    <Project Path="BuildingBlocks/BuildingBlocks.csproj" />
+  </Folder>
+  <Folder Name="/Services/" />
+  <Folder Name="/Services/Basket/">
+    <Project Path="../Basket.Api/Basket.Api.csproj" Id="00713b90-a310-4ec1-b8d3-a1e27caa6d83" />
+  </Folder>
+  <Folder Name="/Services/Catalog/">
+    <Project Path="Catalog.Ai/Catalog.Ai.csproj" />
+  </Folder>
+  <Project Path="docker-compose.dcproj">
+    <Build />
+  </Project>
+</Solution>
