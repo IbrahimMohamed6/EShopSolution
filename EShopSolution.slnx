@@ -1,15 +1,16 @@
 <Solution>
-  <Folder Name="/BuildingBlocks/">
+  <Folder Name="/Src/" />
+  <Folder Name="/Src/BuildingBlocks/">
     <Project Path="BuildingBlocks/BuildingBlocks.csproj" />
   </Folder>
-  <Folder Name="/Services/" />
-  <Folder Name="/Services/Basket/">
+  <Folder Name="/Src/Services/" />
+  <Folder Name="/Src/Services/Basket/">
     <Project Path="../Basket.Api/Basket.Api.csproj" Id="00713b90-a310-4ec1-b8d3-a1e27caa6d83" />
   </Folder>
-  <Folder Name="/Services/Catalog/">
+  <Folder Name="/Src/Services/Catalog/">
     <Project Path="Catalog.Ai/Catalog.Ai.csproj" />
   </Folder>
-  <Folder Name="/Services/Discount/">
+  <Folder Name="/Src/Services/Discount/">
     <Project Path="Discount.Api/Discount.Api.csproj" Id="43fa58ad-2ac3-4c10-be47-b28ae912cf35" />
   </Folder>
   <Project Path="docker-compose.dcproj">
