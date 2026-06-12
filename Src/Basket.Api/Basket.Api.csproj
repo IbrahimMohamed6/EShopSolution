@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Carter" Version="8.2.1" />
+    <PackageReference Include="Marten" Version="8.37.2" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.26" />
+    <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="8.0.27" />
+    <PackageReference Include="Scrutor" Version="7.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EShopSolution\BuildingBlocks\BuildingBlocks.csproj" />
+  </ItemGroup>
+
+</Project>
